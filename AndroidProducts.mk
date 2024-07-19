@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_qqcandy.mk
+    $(LOCAL_DIR)/omni_qqcandy.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_qqcandy-user \

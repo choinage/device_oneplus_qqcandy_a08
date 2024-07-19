@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ossi device
 $(call inherit-product, device/oplus/qqcandy/device.mk)
@@ -18,7 +18,7 @@ $(call inherit-product, device/oplus/qqcandy/device.mk)
 PRODUCT_DEVICE := qqcandy
 PRODUCT_NAME := twrp_qqcandy
 PRODUCT_BRAND := oplus
-PRODUCT_MODEL := qqcandy
+PRODUCT_MODEL := PGZ110
 PRODUCT_MANUFACTURER := oplus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oplus

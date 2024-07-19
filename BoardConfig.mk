@@ -56,8 +56,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := ossi_defconfig
-TARGET_KERNEL_SOURCE := kernel/oplus/ossi
+TARGET_KERNEL_CONFIG := qqcandy_defconfig
+TARGET_KERNEL_SOURCE := kernel/oplus/qqcandy
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
