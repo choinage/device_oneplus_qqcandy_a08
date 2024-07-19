@@ -15,10 +15,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from ossi device
 $(call inherit-product, device/oplus/ossi/device.mk)
 
-PRODUCT_DEVICE := ossi
-PRODUCT_NAME := omni_ossi
+PRODUCT_DEVICE := qqcandy
+PRODUCT_NAME := twrp_qqcandy
 PRODUCT_BRAND := oplus
-PRODUCT_MODEL := ossi
+PRODUCT_MODEL := qqcandy
 PRODUCT_MANUFACTURER := oplus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oplus

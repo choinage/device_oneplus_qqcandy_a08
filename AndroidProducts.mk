@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ossi.mk
+    $(LOCAL_DIR)/twrp_qqcandy.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ossi-user \
-    omni_ossi-userdebug \
-    omni_ossi-eng
+    omni_qqcandy-user \
+    omni_qqcandy-userdebug \
+    omni_qqcandy-eng
