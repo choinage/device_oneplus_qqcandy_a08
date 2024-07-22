@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/oplus/ossi/device.mk)
 
 PRODUCT_DEVICE := ossi
-PRODUCT_NAME := omni_ossi
+PRODUCT_NAME := twrp_ossi
 PRODUCT_BRAND := oplus
 PRODUCT_MODEL := ossi
 PRODUCT_MANUFACTURER := oplus
