@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from ossi device
+# Inherit from qqcandy device
 $(call inherit-product, device/oplus/qqcandy/device.mk)
 
 PRODUCT_DEVICE := qqcandy
