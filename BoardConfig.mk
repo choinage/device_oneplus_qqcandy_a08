@@ -19,7 +19,15 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     product \
     vbmeta_vendor \
-    system_ext
+    system_ext \
+    my_bigball \
+    my_carrier \
+    my_engineering \
+    my_heytap \
+    my_manifest \
+    my_product \
+    my_region \
+    my_stock
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
